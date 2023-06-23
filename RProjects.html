@@ -46,8 +46,10 @@
 							<h1>R Projects</h1>
 							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
 							<h2>Magazine Subscription Rate Analysis</h2>
-							<p>For this project, I used U.S census data to identify key variables that affect prediction response along with constructing a model in which mailing quantities can be reduced by 25% while still retaining most of the positive responses. The dataset consisted of 5,405 rows and 28 variables. 30% of the data was designated as the testing set, 70% was used as the training set.
-							<p> A few of these variables were adjusted prior to building the model. This includeded thirty-seven geo-demographic ordinal variables along with two categorical variables. In order to be able to use these variables as part of the model, the original values were re-scaled to the mean of the unit ranges. For the categorical variables, they were converted to dummy variables.
+							<p>For this project, I used U.S census data to identify key variables that affect prediction response along with constructing a model in which mailing quantities can be reduced by 25% while still retaining most of the positive responses. The dataset consisted of 5,405 rows and 28 variables. 30% of the data was designated as the testing set, 70% was used as the training set.</p>
+							<p>A few of these variables were adjusted prior to building the model. This includeded thirty-seven geo-demographic ordinal variables along with two categorical variables. In order to be able to use these variables as part of the model, the original values were re-scaled to the mean of the unit ranges. For the categorical variables, they were converted to dummy variables.</p>
+							<p>In order to identify the best variables to use for the model, a logistic regression was executed. Then, a linear regression was performed using the variables obtained from the logistic regression to create the final model. This was done due to the nature of log-odds of responses being difficult to interpret.</p>
+							<p>After constructing the model, its performance was compared to a baseline which represents the proportion of subscriptions if prospects were selected on a random basis. The differences in performance was shown in a gains chart. Using the chart, I was able to conclude that cutting mailing rates by 25% would still retain 84% of the magazine's total subscriptions.</p>
 						</div>
 					</div>
 
