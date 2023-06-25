@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>About Me</title>
+		<title>Python Projects</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -43,11 +43,13 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>About Me</h1>
+							<h1>Python Projects</h1>
 							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
-							<p>I am a new graduate from the University of Illinois at Chicago with a BS in information and decision science with a concentration in business analytics along with a minor in finance. I have not yet had any formal experience in analytics but I am excited to start and to expand my knowledge on data visualization, modeling, and analysis.</p>
-							<p>As of May 2023, I have become proficient in cleansing and modeling data using R and Python, utilizing packages such as NumPy and Pandas for Python, and Tidyverse for R. Aside from coding, I have become familiar with softwares such as Microsoft Excel and Access. Currently, I am workings towards becoming proficient in Power BI.</p>
-							<p>Currently, I am looking for positions that would not only help me break into the the data analytics field, but that would also provide opportunities to grow and learn more.</p>
+							<h2>Real Estate Pricing Analysis</h2>
+							<p>This project was completed with a group of peers. The purpose of this project is to determine what model would perform best when pricing for a property in the United States. The motivation behind this project is that as young adults, being able to find a place to live is something that may be extremely difficult. With this pricing analysis my peers and I hope to provide some insights that may help with this problem. The dataset that was used was extracted from Kaggle, which was sourced from the U.S Census Bureau.</p>
+							<p>The dataset was first cleansed, by dropping null values, duplicate data, and irrelevant variables. Outliers were identified and removed by creating a box plot and examining the IQR values. After preparing the data, it was split with 80% being the training set, and 20% being the testing set. An exploratory analysis was then conducted, which includes the creation of a correlation matrix and examining the relationship between all relevant variables and price.</p>
+							<p>Another purpose of this project was to compare the performance of different models on the data. As such, we chose to apply linear regression, decision tree regression, k-nearest neighbors regression, random rorest regression, gradient boostin regression, and a neural network regression. After creating the models, the performance of each model was measured with mean absolute error and r^2. After interpreting the results, it was determined that the top performing model was the random forest regression.</p>
+							
 						</div>
 					</div>
 
