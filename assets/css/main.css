@@ -3298,9 +3298,8 @@ input, select, textarea {
 			}
 
 				#footer > .inner .copyright li {
-					border-left: 0;
-					padding-left: 0;
-					margin: 0.75em 0 0 0;
+					margin-left: auto;
+					margin-right: auto;
 					display: block;
 					line-height: inherit;
 					text-align: center;
