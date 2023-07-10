@@ -46,8 +46,8 @@
 							<p>A few of these variables were adjusted prior to building the model. This includeded thirty-seven geo-demographic ordinal variables along with two categorical variables. In order to be able to use these variables as part of the model, the original values were re-scaled to the mean of their unit ranges. For the categorical variables, they were converted to dummy variables.</p>
 							<p>In order to identify the best variables to use for the model, a logistic regression was executed. Then, a linear regression was performed using the variables obtained from the logistic regression to create the final model. This was done due to the nature of log-odds of responses being difficult to interpret.</p>
 							<p>After constructing the model, its performance was compared to a baseline which represents the proportion of subscriptions if prospects were selected on a random basis. The differences in performance was shown in a gains chart. Using the chart, I was able to conclude that cutting mailing rates by 25% would still retain 84% of the magazine's total subscriptions.<br></p>
-							<span class="image main"><img src="images/Chart2.JPG" alt="" style = "max-width:400px; max-height:800px;" /></span>
-							<span class="image main"><img src="images/GainsChart.JPG" alt="" style = "max-width:400px; max-height:400px;" /></span>
+							<p style="text-align:center;"><span class="image main"><img src="images/Chart2.JPG" alt="" style = "max-width:400px; max-height:800px;" /></span></p>
+							<p style="text-align:center;"><span class="image main"><img src="images/GainsChart.JPG" alt="" style = "max-width:400px; max-height:400px;" /></span></p>
 							<a href = "FA_DataPrep.r" download>Data Cleansing Code</a>
 							<h2>Factor Analysis</h2>
 							<p>The goal of this project is to conduct a factor analysis on U.S. census data in order to identify key factors in which the U.S is unique demographically. The purpose of this is to determine what important demographic questions to ask in future census surveys. We can identify which questions to add by finding what themes the numerous factors correlate to. The dataset consisted of 34,297 rows of data prior to cleaning.<p>
@@ -56,7 +56,7 @@
 							<a href = "FA_SAVFile.sav" download>SAV File</a>
 							<p>Now that the data is usable, it was exported to a SAV fle so that it could be used in SPSS to execute the factor analysis. Varimax rotation was used in order to create a set of factors with higher holdings for each variable and was thus easier to interpret after analysis. Once executed, the factors provided by the SPSS output was interpreted to relate to five distinct themes, which are, affluence, family & home ownership, age, property value, and race.<p>
 							<p>The number of factors that are selected was determined by only showing those that had an eigen-value greater thanone. In short, only factors that have a high enough variance within the dataset are considered for being a factor.However, the results from an initial factor analysis has shown that some factors were logically redundant, morespecifically, the factor of race. Thus, the number of factors was reduced to five.</p>
-							<span class="image main"><img src="images/FactorAnalysisOutput.JPG" alt="" style = "max-width:400px; max-height:1000px;"/></span>
+							<p style="text-align:center;"><span class="image main"><img src="images/FactorAnalysisOutput.JPG" alt="" style = "max-width:400px; max-height:1000px;"/></span></p>
 						</div>
 					</div>
 
